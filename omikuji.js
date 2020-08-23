@@ -1,5 +1,3 @@
-alert("ようこそ")
-
 function omikuji() {
 
     //ランダムな数を生成
