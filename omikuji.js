@@ -5,7 +5,7 @@ function omikuji() {
     console.log(a);
 
     //おみくじの画像
-    document.getElementsByClassName("omikuji")[0].setAttribute('src', `omikuji/kuji${a}.png`);　
+    document.getElementsByClassName("omikuji")[0].setAttribute('src', `https://github.com/Warakubami/contest/blob/master/kuji${a}.png`);　
 
     //もう一回
     document.querySelectorAll("button")[0].innerHTML = "もう一度ひく";
